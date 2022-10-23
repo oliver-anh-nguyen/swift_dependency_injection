@@ -1,5 +1,7 @@
 # .circleci/config.yml
 version: 2.1
+orbs:
+  macos: circleci/macos@2
 jobs:
   build-and-test:
     macos:
@@ -9,6 +11,8 @@ jobs:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
     steps:
+      - macos/switch-ruby:
+          version: "2.6"
       - checkout
       - run: bundle install
       - run:
