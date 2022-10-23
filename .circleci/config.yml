@@ -5,8 +5,7 @@ orbs:
 jobs:
   build-and-test:
     macos:
-      xcode: 12.5.1
-    working_directory: /Users/distiller/project
+      xcode: 13.2.1
     environment:
       FL_OUTPUT_DIR: output
       FASTLANE_LANE: test
@@ -27,4 +26,3 @@ workflows:
   build-and-test:
     jobs:
       - build-and-test
-      
