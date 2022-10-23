@@ -11,8 +11,6 @@
 		588295292901D411003F1F90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588295282901D411003F1F90 /* ContentView.swift */; };
 		5882952B2901D413003F1F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882952A2901D413003F1F90 /* Assets.xcassets */; };
 		5882952E2901D413003F1F90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882952D2901D413003F1F90 /* Preview Assets.xcassets */; };
-		588295422901D413003F1F90 /* DependencyInjectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588295412901D413003F1F90 /* DependencyInjectionUITests.swift */; };
-		588295442901D413003F1F90 /* DependencyInjectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588295432901D413003F1F90 /* DependencyInjectionUITestsLaunchTests.swift */; };
 		588295512901D4A2003F1F90 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 588295502901D4A2003F1F90 /* data.json */; };
 		588295532901D51B003F1F90 /* WeatherRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588295522901D51B003F1F90 /* WeatherRawData.swift */; };
 		588295552901D578003F1F90 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588295542901D578003F1F90 /* FileLoader.swift */; };
@@ -32,13 +30,6 @@
 			remoteGlobalIDString = 588295222901D411003F1F90;
 			remoteInfo = DependencyInjection;
 		};
-		5882953E2901D413003F1F90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5882951B2901D411003F1F90 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 588295222901D411003F1F90;
-			remoteInfo = DependencyInjection;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -48,9 +39,6 @@
 		5882952A2901D413003F1F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5882952D2901D413003F1F90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		588295332901D413003F1F90 /* DependencyInjectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5882953D2901D413003F1F90 /* DependencyInjectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependencyInjectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		588295412901D413003F1F90 /* DependencyInjectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionUITests.swift; sourceTree = "<group>"; };
-		588295432901D413003F1F90 /* DependencyInjectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		588295502901D4A2003F1F90 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		588295522901D51B003F1F90 /* WeatherRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRawData.swift; sourceTree = "<group>"; };
 		588295542901D578003F1F90 /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
@@ -78,13 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5882953A2901D413003F1F90 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,7 +74,6 @@
 			children = (
 				588295252901D411003F1F90 /* DependencyInjection */,
 				588295362901D413003F1F90 /* DependencyInjectionTests */,
-				588295402901D413003F1F90 /* DependencyInjectionUITests */,
 				588295242901D411003F1F90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +83,6 @@
 			children = (
 				588295232901D411003F1F90 /* DependencyInjection.app */,
 				588295332901D413003F1F90 /* DependencyInjectionTests.xctest */,
-				5882953D2901D413003F1F90 /* DependencyInjectionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,15 +114,6 @@
 				5882956A2901FB35003F1F90 /* WeatherViewModelTests.swift */,
 			);
 			path = DependencyInjectionTests;
-			sourceTree = "<group>";
-		};
-		588295402901D413003F1F90 /* DependencyInjectionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				588295412901D413003F1F90 /* DependencyInjectionUITests.swift */,
-				588295432901D413003F1F90 /* DependencyInjectionUITestsLaunchTests.swift */,
-			);
-			path = DependencyInjectionUITests;
 			sourceTree = "<group>";
 		};
 		5882955C2901DCD5003F1F90 /* ViewModel */ = {
@@ -255,24 +225,6 @@
 			productReference = 588295332901D413003F1F90 /* DependencyInjectionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5882953C2901D413003F1F90 /* DependencyInjectionUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5882954D2901D413003F1F90 /* Build configuration list for PBXNativeTarget "DependencyInjectionUITests" */;
-			buildPhases = (
-				588295392901D413003F1F90 /* Sources */,
-				5882953A2901D413003F1F90 /* Frameworks */,
-				5882953B2901D413003F1F90 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5882953F2901D413003F1F90 /* PBXTargetDependency */,
-			);
-			name = DependencyInjectionUITests;
-			productName = DependencyInjectionUITests;
-			productReference = 5882953D2901D413003F1F90 /* DependencyInjectionUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,10 +241,6 @@
 					588295322901D413003F1F90 = {
 						CreatedOnToolsVersion = 13.4.1;
 						LastSwiftMigration = 1340;
-						TestTargetID = 588295222901D411003F1F90;
-					};
-					5882953C2901D413003F1F90 = {
-						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 588295222901D411003F1F90;
 					};
 				};
@@ -312,7 +260,6 @@
 			targets = (
 				588295222901D411003F1F90 /* DependencyInjection */,
 				588295322901D413003F1F90 /* DependencyInjectionTests */,
-				5882953C2901D413003F1F90 /* DependencyInjectionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,13 +276,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		588295312901D413003F1F90 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5882953B2901D413003F1F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,15 +309,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		588295392901D413003F1F90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				588295422901D413003F1F90 /* DependencyInjectionUITests.swift in Sources */,
-				588295442901D413003F1F90 /* DependencyInjectionUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -385,11 +316,6 @@
 			isa = PBXTargetDependency;
 			target = 588295222901D411003F1F90 /* DependencyInjection */;
 			targetProxy = 588295342901D413003F1F90 /* PBXContainerItemProxy */;
-		};
-		5882953F2901D413003F1F90 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 588295222901D411003F1F90 /* DependencyInjection */;
-			targetProxy = 5882953E2901D413003F1F90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -623,42 +549,6 @@
 			};
 			name = Release;
 		};
-		5882954E2901D413003F1F90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9JSRL669P2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ata.studio.vn.DependencyInjectionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DependencyInjection;
-			};
-			name = Debug;
-		};
-		5882954F2901D413003F1F90 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9JSRL669P2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ata.studio.vn.DependencyInjectionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DependencyInjection;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -685,15 +575,6 @@
 			buildConfigurations = (
 				5882954B2901D413003F1F90 /* Debug */,
 				5882954C2901D413003F1F90 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5882954D2901D413003F1F90 /* Build configuration list for PBXNativeTarget "DependencyInjectionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5882954E2901D413003F1F90 /* Debug */,
-				5882954F2901D413003F1F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

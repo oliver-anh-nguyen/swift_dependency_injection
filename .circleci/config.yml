@@ -23,29 +23,8 @@ jobs:
       - store_test_results:
           path: output/scan
 
-  adhoc:
-    macos:
-      xcode: 12.5.1
-    working_directory: /Users/distiller/project
-    environment:
-      FL_OUTPUT_DIR: output
-      FASTLANE_LANE: adhoc
-    steps:
-      - checkout
-      - run: bundle install
-      - run:
-          name: Fastlane
-          command: bundle exec fastlane $FASTLANE_LANE
-      - store_artifacts:
-          path: output
-
 workflows:
-  build-test-adhoc:
+  build-and-test:
     jobs:
       - build-and-test
-      - adhoc:
-          filters:
-            branches:
-              only: development
-          requires:
-            - build-and-test
+      
