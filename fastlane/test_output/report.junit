@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='DependencyInjectionUITests.xctest' tests='6' failures='0'>
   <testsuite name='DependencyInjectionUITests.DependencyInjectionUITests' tests='2' failures='0'>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITests' name='testExample' time='2.203'/>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITests' name='testLaunchPerformance' time='78.056'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITests' name='testExample' time='3.102'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITests' name='testLaunchPerformance' time='78.222'/>
   </testsuite>
   <testsuite name='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' tests='4' failures='0'>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='5.228'/>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='5.547'/>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='3.524'/>
-    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='5.414'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='3.716'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='5.469'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='3.443'/>
+    <testcase classname='DependencyInjectionUITests.DependencyInjectionUITestsLaunchTests' name='testLaunch' time='5.512'/>
   </testsuite>
 </testsuites>
